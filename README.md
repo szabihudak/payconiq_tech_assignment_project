@@ -1,21 +1,21 @@
 # Payconiq Tech Assignment Project
 
-###Tech Stack
+### Tech Stack
 - Cypress TA framework, JS
 - Cucumber and Cucumber reporter for BDD Gherkin layer
 
-###Project Structure
+### Project Structure
 - BDD Gherkin TC descriptions - ./cypress/integration/MainFlows.feature
 - Step definitions - ./cypress/integration/MainFlows/MainFlow.js
 - Page Object models - ./cypress/support/PageObjects/DocumentationPage.js
 - Test data - ./cypress/support/TestData.js
 - Scripts for test execution and reporting - ./package.json
 
-###Install
+### Install
 - Open the payconiq_tech_assignment_project
 - Run 'npm install' for download and setup the necessary dependencies
 
-###Test Execution
+### Test Execution
 Run the following scripts form package.json or from terminal using the following format:
 npm run {related script}
 
@@ -54,13 +54,13 @@ npm run {related script}
 
 After the report creation you will find the BDD Cucumber HTML report in the ./cypress/reports/cucumber-html directory
 
-###Limitations
+### Limitations
 The current Cypress version does not support Safari browser, test can run under Chrome, Firefox and Edge browsers. The browser needs to be installed.
 
-###Bugs in the report
+### Bugs in the report
 Sorting is not working with problem_user
 
-###Test Approach
+### Test Approach
 
 I tried to cover most part of the application with max 5 automated test cases, so I defined E2E user flows which go through the application, insted of testing each part/page separately. These flows, test cases are:
  - Happy Flow - User select/deselect inventory items and complete the checkout process. With this test case I check if the main functionality of the application is working as we expected.
